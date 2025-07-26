@@ -5,6 +5,7 @@ elements on the left
 of the index is equal to the sum of elements on the right of the index. If no
 equilibrium point
 exists return -1. */
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -26,7 +27,7 @@ int findEquilibriumIndex(vector<int> &arr){
     return -1;
 }
 int main() {
-    vector<int> arr = {1, 3, 5, 2, 2};  // Example input
+    vector<int> arr = {1, 3, 5, 2, 2};  
     int result = findEquilibriumIndex(arr);
 
     if (result != -1)

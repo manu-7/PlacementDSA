@@ -19,10 +19,14 @@ int maxFavouriteSongs(string S, int k) {
             currentCount++;
         }
     }
-    for(int i=0;i<S.length();i++){
-        if(S[i-k]=='a'){
+     // Slide the window across the string
+    for (int i = k; i < S.length(); i++) {
+        // Remove the char that goes out of window
+        if (S[i - k] == 'a') {
             currentCount--;
-        } 
+        }
+
+        // Add the new char in the window
         if (S[i] == 'a') {
             currentCount++;
         }
