@@ -25,16 +25,12 @@ int calculateScore(string S){
         }
     }
     return score;
-
 }
-
 int main() {
     string S;
     cout << "Enter the toss sequence: ";
     cin >> S;
-
     int result = calculateScore(S);
     cout << "Final Score: " << result << endl;
-
     return 0;
 }
