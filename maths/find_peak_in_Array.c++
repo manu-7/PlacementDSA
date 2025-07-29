@@ -1,3 +1,9 @@
+
+// You are on a hiking trail represented by an Array A of length N. where the
+// trial initially ascends
+// and then descends forming a single peek. Your task is to find and return an
+// integer value representing the elevation of the summit.
+
 #include<bits/stdc++.h>
 using namespace std;
 
