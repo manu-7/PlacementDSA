@@ -1,3 +1,5 @@
+//Sum of number in array which is at prime index
+
 #include<bits/stdc++.h>
 using namespace std;
 
